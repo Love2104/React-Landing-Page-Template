@@ -14,7 +14,7 @@ export const Header = (props) => {
                 </h1>
                 <p>{props.data ? props.data.paragraph : "Loading"}</p>
                 <a
-                  href="#features"
+                  href="#Objectives"
                   className="btn btn-custom btn-lg page-scroll"
                 >
                   Learn More
@@ -24,6 +24,7 @@ export const Header = (props) => {
           </div>
         </div>
       </div>
+      
     </header>
   );
 };
